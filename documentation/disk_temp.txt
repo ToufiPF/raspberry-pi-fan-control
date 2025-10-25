@@ -1,0 +1,4 @@
+sudo apt install smartmontools
+
+sudo smartctl -A /dev/sda | grep Temperature_Celsius
+
